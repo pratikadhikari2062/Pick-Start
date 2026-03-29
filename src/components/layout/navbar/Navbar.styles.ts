@@ -7,7 +7,7 @@ export const NavbarWapper = styled.nav`
     display:flex;
     justify-content:space-between;
     border:1px solid;
-    align-items:center;
+    align-items:center; 
     
 
 `;
@@ -16,18 +16,19 @@ color:green;
 font-wedth:800;
 `
 export const PreviewButton = styled.button`
-    background-color:red;
-    padding:10px 20px;
+    
+    padding:10px 30px;
     font-size:18px;
     font-weight-800;
     color:gray;
-    margin:5px
+    margin:5px;
     border-radius: 6px;
+    
     
     
 `;
 export const ExportButton = styled.button`
-    padding:10px 20px;
+    padding:10px 30px;
     font-size:18px;
     font-weight-800;
     color:gray;
