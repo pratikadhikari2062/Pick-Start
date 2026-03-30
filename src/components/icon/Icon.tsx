@@ -4,7 +4,7 @@ interface IconProps {
   className?: string;
 }
 
-export const Dropdown = ({ size = 30, color = "", className }: IconProps) => (
+export const Dropdown = ({ size = 20, color = "", className }: IconProps) => (
   <svg
     viewBox="0 0 24 24"
     fill={color}
@@ -31,7 +31,7 @@ export const Dropdown = ({ size = 30, color = "", className }: IconProps) => (
   </svg>
 );
 
-export const EyeIcon = ({ size = 30, color = "", className }: IconProps) => (
+export const EyeIcon = ({ size = 20, color = "", className }: IconProps) => (
   <svg
     viewBox="-6.72 -6.72 37.44 37.44"
         fill={color}

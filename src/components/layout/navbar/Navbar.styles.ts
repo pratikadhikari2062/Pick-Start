@@ -15,6 +15,13 @@ export const HeadingOne = styled.div`
 color:green;
 font-wedth:800;
 `
+export const ButtonWrapper = styled.button`
+align-items:center;
+justyfy-content:center;
+display:flex;
+`
+
+
 export const PreviewButton = styled.button`
     
     padding:10px 30px;
@@ -23,9 +30,9 @@ export const PreviewButton = styled.button`
     color:gray;
     margin:5px;
     border-radius: 6px;
+    display:flex;
     
-    
-    
+     
 `;
 export const ExportButton = styled.button`
     padding:10px 30px;
@@ -33,6 +40,8 @@ export const ExportButton = styled.button`
     font-weight-800;
     color:gray;
     border-radius: 6px;
+    display:flex;
+    
 
 `;
 

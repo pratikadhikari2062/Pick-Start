@@ -1,15 +1,15 @@
 import { Dropdown, EyeIcon } from "../../icon/Icon";
-import { NavbarWapper, PreviewButton, ExportButton } from "./Navbar.styles";
+import { NavbarWapper, PreviewButton, ExportButton, ButtonWrapper } from "./Navbar.styles";
 
 const Navbar: React.FC = () => {
   return (
     <NavbarWapper>
       <h1>Pick-Start </h1>
-      <div>
+      <ButtonWrapper>
         {" "}
         <PreviewButton> <EyeIcon   color="none"/> Preview</PreviewButton>
         <ExportButton>Export <Dropdown /> </ExportButton>
-      </div>
+      </ButtonWrapper>
     </NavbarWapper>
   );
 };
