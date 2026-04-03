@@ -15,7 +15,7 @@ export const HeadingOne = styled.div`
 color:green;
 font-wedth:800;
 `
-export const ButtonWrapper = styled.button`
+export const ButtonWrapper = styled.div`
 align-items:center;
 justyfy-content:center;
 display:flex;
