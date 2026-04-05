@@ -19,9 +19,7 @@ export const ButtonWrapper = styled.div`
 align-items:center;
 justyfy-content:center;
 display:flex;
-`
-
-
+`   
 export const PreviewButton = styled.button`
     
     padding:10px 30px;

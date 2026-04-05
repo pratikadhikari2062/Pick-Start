@@ -1,16 +1,20 @@
-import { SideBarWapper } from "./sidebar.styles";
+import { SearchIcon } from "../../icon/Icon";
+import { ButtonWrapper } from "../navbar/Navbar.styles";
 
 
 const SideBar: React.FC = () => {
     return (
-        <SideBarWapper>
-            <button>navbar</button>
-            <button>Hero</button>
-            <button>Feature</button>
-            <button>CTA</button>
-            <button>Footer</button>
-            <h1></h1>
-        </SideBarWapper>
+        <div>
+            <ButtonWrapper> < SearchIcon color="none"/> Scarch components..  </ButtonWrapper>
+            <h3>Component</h3>
+            <ul>
+                <li>Navbar</li>
+                <li>Hero</li>
+                <li>Features</li>
+                <li>CTA</li>
+                <li>Footer</li>
+            </ul>
+        </div>
     )
 };
 export default SideBar;
