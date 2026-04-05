@@ -1,13 +1,17 @@
 import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import Navbar from "../components/layout/navbar/Navbar";
-import SideBar from "../components/layout/sidebar/LeftSideBar";
+import LeftSideBar from "../components/layout/sidebar/LeftSideBar";
+import RightSidebar from "../components/layout/sidebar/RightSidebar";
+
+
 
 const RootLayout = () => (
   <>
     <Navbar />
-    <SideBar/>
-  {/*   <Outlet /> */}
+    <LeftSideBar />
+    <RightSidebar/>
+     <Outlet /> 
     <TanStackRouterDevtools />
   </>
 );

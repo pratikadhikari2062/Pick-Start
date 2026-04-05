@@ -1,6 +1,6 @@
 import { HeadingThree, List, Unorderlist } from "./LeftSidebar.styles";
 
-const SideBar: React.FC = () => {
+const LeftSideBar: React.FC = () => {
   return (
     <div>
       <HeadingThree>Component</HeadingThree>
@@ -15,4 +15,4 @@ const SideBar: React.FC = () => {
     </div>
   );
 };
-export default SideBar;
+export default LeftSideBar;
