@@ -17,6 +17,7 @@ export const Content = styled.div`
   height: calc(100vh - 64px);
   width: 60%;
   top:64px;
+  background-color:var(--secondary-color);
 `;
 
 const RootLayout = () => (
