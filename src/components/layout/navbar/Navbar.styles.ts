@@ -1,24 +1,27 @@
 import styled from "styled-components";
 
 export const NavbarWapper = styled.nav`
-    height:20px;
-    width:100%;
-    padding:40px 40px;
-    display:flex;
-    justify-content:space-between;
-    border:1px solid var(--border-color);
-    align-items:center; 
-    
-
+  height: 64px;
+  width: 100%;
+  position: sticky;
+  top:0;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--border-color);
+  align-items: center;
+  background-color:#ffffff;
+  z-index:1000;
 `;
 export const HeadingOne = styled.div`
 color:green;
-font-wedth:800;
+font-weight:800;
 `
 export const ButtonWrapper = styled.div`
+display:flex;
 align-items:center;
 justyfy-content:center;
-display:flex;
+
 `   
 export const PreviewButton = styled.button`
     
