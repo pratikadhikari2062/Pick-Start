@@ -1,18 +1,18 @@
-import { HeadingThree, List, Unorderlist } from "./LeftSidebar.styles";
+import { HeadingThree, OrderList, Unorderlist,LeftSidebarContainer } from "./LeftSidebar.styles";
 
 const LeftSideBar: React.FC = () => {
   return (
-    <div>
+    <LeftSidebarContainer>
       <HeadingThree>Component</HeadingThree>
 
       <Unorderlist>
-        <List>Navbar</List>
-        <List>Hero</List>
-        <List>Features</List>
-        <List>CTA</List>
-        <List>Footer</List>
+        <OrderList>Navbar</OrderList>
+        <OrderList>Hero</OrderList>
+        <OrderList>Features</OrderList>
+        <OrderList>CTA</OrderList>
+        <OrderList>Footer</OrderList>
       </Unorderlist>
-    </div>
+    </LeftSidebarContainer>
   );
 };
 export default LeftSideBar;

@@ -6,7 +6,7 @@ export const NavbarWapper = styled.nav`
     padding:40px 40px;
     display:flex;
     justify-content:space-between;
-    border:1px solid;
+    border:1px solid var(--border-color);
     align-items:center; 
     
 
