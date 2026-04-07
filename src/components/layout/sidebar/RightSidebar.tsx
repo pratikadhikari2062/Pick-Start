@@ -1,10 +1,10 @@
-import { Rightsidebar } from "./RightSidebar.styles";
+import { Rightsidebar, HeadingTwo } from "./RightSidebar.styles";
 
 const RightSidebar: React.FC = () => {
     return (
-            <Rightsidebar>
-                this is righit sidebar
-            </Rightsidebar>
+      <Rightsidebar>
+        <HeadingTwo>Properties</HeadingTwo>
+      </Rightsidebar>
     );
 };
 export default RightSidebar;

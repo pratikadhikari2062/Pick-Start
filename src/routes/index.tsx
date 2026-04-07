@@ -6,6 +6,7 @@ export const NavContaine = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
+  border: 1px solid var(--border-color);
 `;
 
 export const HeadingTwo = styled.h2`

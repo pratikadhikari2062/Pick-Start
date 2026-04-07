@@ -7,3 +7,6 @@ export const Rightsidebar = styled.div`
   top:64px;
   border-left: 1px solid var(--border-color);
 `;
+export const HeadingTwo = styled.h2`
+border: 1px solid var(--border-color);
+`;
