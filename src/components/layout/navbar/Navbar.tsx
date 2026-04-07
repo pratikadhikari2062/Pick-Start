@@ -6,8 +6,15 @@ import {
   ExportButton,
   ButtonWrapper,
 } from "./Navbar.styles";
+interface HeaderProps {
+  // This is the standard type for a useState setter
+  setIsPreview: React.Dispatch<React.SetStateAction<boolean>>;
+  isPreview: boolean;
+}
 
-const Navbar: React.FC = () => {
+
+const Navbar: React.FC<HeaderProps> = ({ isPreview, setIsPreview }) => {
+  console.log(isPreview)
   return (
     <NavbarWapper>
       <Link to = "/"><h1>Pick-Start </h1></Link>
