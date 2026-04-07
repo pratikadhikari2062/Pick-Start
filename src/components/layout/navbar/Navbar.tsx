@@ -1,14 +1,27 @@
+import { Link } from "@tanstack/react-router";
 import { Dropdown, EyeIcon } from "../../icon/Icon";
-import { NavbarWapper, PreviewButton, ExportButton, ButtonWrapper } from "./Navbar.styles";
+import {
+  NavbarWapper,
+  PreviewButton,
+  ExportButton,
+  ButtonWrapper,
+} from "./Navbar.styles";
 
 const Navbar: React.FC = () => {
   return (
     <NavbarWapper>
-      <h1>Pick-Start </h1>
+      <Link to = "/"><h1>Pick-Start </h1></Link>
+      
       <ButtonWrapper>
-        {" "}
-        <PreviewButton> <EyeIcon   color="none"/> Preview</PreviewButton>
-        <ExportButton>Export <Dropdown /> </ExportButton>
+        <Link to="/prewiew">
+          <PreviewButton>
+            {" "}
+            <EyeIcon color="none" /> Preview
+          </PreviewButton>
+        </Link>
+        <ExportButton>
+          Export <Dropdown />{" "}
+        </ExportButton>
       </ButtonWrapper>
     </NavbarWapper>
   );
