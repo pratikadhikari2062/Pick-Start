@@ -30,15 +30,22 @@ background-color: var(--primary-color);
 const LearnButton = styled.button`
   height: 30px;
   width: 100px;
+  margin-left:30px;
   background-color: var(--secondary-color);
 `;
 
 const HeadingOne = styled.h1`
 text-size:4px;
-  margin-top:100px;
+  margin-top:200px;
   text-align: center;
-  border: 1px solid;
   font-size:var(--font-size-3xl)
+`;
+const Paragrah = styled.p`
+  margin: 30px 0px;
+`;
+const MainHome = styled.div`
+margin-top:2px;
+  text-align: center;
 `;
 
 export const Route = createFileRoute("/")({
@@ -58,10 +65,13 @@ function RouteComponent() {
         </NavList>
         <Startbutton>Get Start</Startbutton>
       </NavContaine>
-      <div>
+      <MainHome>
         <HeadingOne>Build Something Amazing</HeadingOne>
-        
-      </div>
+        <Paragrah>Create beautiful websites with our drag and drop builder</Paragrah>
+
+        <Startbutton>Get Start</Startbutton>
+        <LearnButton>Learn More</LearnButton>
+      </MainHome>
     </div>
   );
 }
