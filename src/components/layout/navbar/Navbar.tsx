@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
       <Link to = "/"><h1>Pick-Start </h1></Link>
       
       <ButtonWrapper>
-        <Link to="/prewiew">
+        <Link to="/preview" target="_blank">
           <PreviewButton>
             {" "}
             <EyeIcon color="none" /> Preview

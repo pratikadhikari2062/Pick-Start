@@ -1,6 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { styled } from "styled-components";
 
+export const MainWrapper = styled.div`
+ width:60%;
+`;
+
 export const NavContaine = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -54,7 +58,7 @@ export const Route = createFileRoute("/")({
 
 function RouteComponent() {
   return (
-    <div>
+    <MainWrapper>
       <NavContaine>
         <HeadingTwo>Brand</HeadingTwo>
         <NavList>
@@ -72,6 +76,6 @@ function RouteComponent() {
         <Startbutton>Get Start</Startbutton>
         <LearnButton>Learn More</LearnButton>
       </MainHome>
-    </div>
+    </MainWrapper>
   );
 }
