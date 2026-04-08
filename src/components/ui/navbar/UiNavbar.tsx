@@ -1,6 +1,6 @@
 import { HeadingTwo, NavContaine } from "../../../routes";
 import { HamBurgerIcon } from "../../icon/Icon";
-import { NavItem, NavList, Startbutton } from "./UiNavbar.styles";
+import { NavItem, NavList, Startbutton, HamButton } from "./UiNavbar.styles";
 
 function UiNavbar() {
     return (
@@ -13,7 +13,7 @@ function UiNavbar() {
                 <NavItem>contact</NavItem>
             </NavList>
             <Startbutton>Get Start</Startbutton>
-            <HamBurgerIcon/>
+            <HamButton><HamBurgerIcon/></HamButton>
       
         </NavContaine>
     );

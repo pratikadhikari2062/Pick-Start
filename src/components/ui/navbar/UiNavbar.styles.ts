@@ -18,11 +18,27 @@ export const NavList = styled.ul`
   list-style-type: none;
   display: flex;
   gap: 70px;
+
+  
 `;
-export const NavItem = styled.li``;
+export const NavItem = styled.li`
+  @media (max-width: 767px) {
+    display: none;
+  }
+`;
 
 export const Startbutton = styled.button`
   height: 30px;
   width: 100px;
   background-color: var(--primary-color);
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+`;
+export const HamButton = styled.button`
+  border: none;
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
