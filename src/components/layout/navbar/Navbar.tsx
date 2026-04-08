@@ -6,21 +6,16 @@ import {
   ExportButton,
   ButtonWrapper,
 } from "./Navbar.styles";
-interface HeaderProps {
-   isPreview: boolean;
-  setIsPreview: React.Dispatch<React.SetStateAction<boolean>>;
- 
-}
 
 
-const Navbar: React.FC<HeaderProps> = ({ isPreview, setIsPreview }) => {
-  console.log(isPreview)
+
+const Navbar: React.FC = () => {
   return (
     <NavbarWapper>
       <Link to = "/"><h1>Pick-Start </h1></Link>
       
       <ButtonWrapper>
-        <Link to="/prewiew" onClick={() => setIsPreview((prev) => !prev)}>
+        <Link to="/prewiew">
           <PreviewButton>
             {" "}
             <EyeIcon color="none" /> Preview
