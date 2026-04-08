@@ -20,7 +20,7 @@ const Navbar: React.FC<HeaderProps> = ({ isPreview, setIsPreview }) => {
       <Link to = "/"><h1>Pick-Start </h1></Link>
       
       <ButtonWrapper>
-        <Link to="/prewiew">
+        <Link to="/prewiew" onClick={() => setIsPreview((prev) => !prev)}>
           <PreviewButton>
             {" "}
             <EyeIcon color="none" /> Preview
