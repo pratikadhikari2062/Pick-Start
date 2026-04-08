@@ -1,18 +1,25 @@
 /* this is index css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-    --border-color:gray;
-    --primary-color:#f7d486;
-    --secondary-color:#ebf4f5;
+:root {
+  --border-color: gray;
+  --primary-color: #f7d486;
+  --secondary-color: #ebf4f5;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
 }
-body{
-    font-family: "Roboto",sans-serif ;
+body {
+  font-family: "Roboto", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }

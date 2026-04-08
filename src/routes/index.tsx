@@ -27,22 +27,41 @@ width:100px;
 background-color: var(--primary-color);
 `;
 
+const LearnButton = styled.button`
+  height: 30px;
+  width: 100px;
+  background-color: var(--secondary-color);
+`;
+
+const HeadingOne = styled.h1`
+text-size:4px;
+  margin-top:100px;
+  text-align: center;
+  border: 1px solid;
+  font-size:var(--font-size-3xl)
+`;
+
 export const Route = createFileRoute("/")({
   component: RouteComponent,
 });
 
 function RouteComponent() {
   return (
-    <NavContaine>
-      <HeadingTwo>Brand</HeadingTwo>
-      <NavList>
-        <NavItem>Home</NavItem>
-      <NavItem>Feature</NavItem>
-      <NavItem>Pricing</NavItem>
-      <NavItem>contact</NavItem>
-      </NavList>
-      <Startbutton>Get Start</Startbutton>
-      
-    </NavContaine>
+    <div>
+      <NavContaine>
+        <HeadingTwo>Brand</HeadingTwo>
+        <NavList>
+          <NavItem>Home</NavItem>
+          <NavItem>Feature</NavItem>
+          <NavItem>Pricing</NavItem>
+          <NavItem>contact</NavItem>
+        </NavList>
+        <Startbutton>Get Start</Startbutton>
+      </NavContaine>
+      <div>
+        <HeadingOne>Build Something Amazing</HeadingOne>
+        
+      </div>
+    </div>
   );
 }

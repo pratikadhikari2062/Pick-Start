@@ -7,9 +7,9 @@ import {
   ButtonWrapper,
 } from "./Navbar.styles";
 interface HeaderProps {
-  // This is the standard type for a useState setter
+   isPreview: boolean;
   setIsPreview: React.Dispatch<React.SetStateAction<boolean>>;
-  isPreview: boolean;
+ 
 }
 
 
