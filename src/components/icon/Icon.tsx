@@ -34,10 +34,10 @@ export const Dropdown = ({ size = 20, color = "", className }: IconProps) => (
 export const EyeIcon = ({ size = 20, color = "", className }: IconProps) => (
   <svg
     viewBox="-6.72 -6.72 37.44 37.44"
-        fill={color}
-        width={size}
-        height={size}
-        className={className}
+    fill={color}
+    width={size}
+    height={size}
+    className={className}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -68,13 +68,12 @@ export const EyeIcon = ({ size = 20, color = "", className }: IconProps) => (
 export const SearchIcon = ({ size = 20, color = "", className }: IconProps) => (
   <svg
     viewBox="0 0 24 24"
-    
     fill={color}
     height={size}
     width={size}
     className={className}
-
-    xmlns="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg"
+  >
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
@@ -105,6 +104,52 @@ export const SearchIcon = ({ size = 20, color = "", className }: IconProps) => (
           <rect width="24" height="24" fill="white"></rect>{" "}
         </clipPath>{" "}
       </defs>{" "}
+    </g>
+  </svg>
+);
+export const HamBurgerIcon = ({
+  size = 20,
+  color = "",
+  className,
+}: IconProps) => (
+  <svg
+    width={size}
+    height={size}
+    fill={color}
+    className={className}
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    stroke="#000000"
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    ></g>
+    <g id="SVGRepo_iconCarrier">
+      {" "}
+      <path
+        d="M5 7H19"
+        stroke="#000000"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>{" "}
+      <path
+        d="M5 12L19 12"
+        stroke="#000000"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>{" "}
+      <path
+        d="M5 17L19 17"
+        stroke="#000000"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>{" "}
     </g>
   </svg>
 );

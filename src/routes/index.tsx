@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { styled } from "styled-components";
+import UiNavbar from "../components/ui/navbar/UiNavbar";
 
 export const MainWrapper = styled.div`
  width:60%;
@@ -15,15 +16,6 @@ export const NavContaine = styled.nav`
 
 export const HeadingTwo = styled.h2`
   background-color: var(--secondary-color);
-`;
-
-const NavList = styled.ul`
-  list-style-type: none;
-  display: flex;
-  gap:70px;
-  `;
-
-const NavItem = styled.li`
 `;
 const Startbutton = styled.button`
 height:30px;
@@ -59,16 +51,7 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   return (
     <MainWrapper>
-      <NavContaine>
-        <HeadingTwo>Brand</HeadingTwo>
-        <NavList>
-          <NavItem>Home</NavItem>
-          <NavItem>Feature</NavItem>
-          <NavItem>Pricing</NavItem>
-          <NavItem>contact</NavItem>
-        </NavList>
-        <Startbutton>Get Start</Startbutton>
-      </NavContaine>
+      <UiNavbar/>
       <MainHome>
         <HeadingOne>Build Something Amazing</HeadingOne>
         <Paragrah>Create beautiful websites with our drag and drop builder</Paragrah>
