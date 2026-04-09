@@ -42,7 +42,7 @@ export const ExportButton = styled.button`
     color:gray;
     border-radius: 6px;
     display:flex;
-    background-color:var(--primary-color)
+    background-color:var(--background-color)
     
 
 `;

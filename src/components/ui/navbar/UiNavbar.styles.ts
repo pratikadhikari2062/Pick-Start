@@ -11,7 +11,7 @@ export const NavContaine = styled.nav`
 `;
 
 export const HeadingTwo = styled.h2`
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
 `;
 
 export const NavList = styled.ul`
@@ -31,7 +31,7 @@ export const Startbutton = styled.button`
   height: 30px;
   width: 100px;
   background-color: var(--primary-color);
-
+  border-radius:5px;
   @media (max-width: 767px) {
     display: none;
   }

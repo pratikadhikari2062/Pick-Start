@@ -15,19 +15,21 @@ export const NavContaine = styled.nav`
 `;
 
 export const HeadingTwo = styled.h2`
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
 `;
 const Startbutton = styled.button`
-height:30px;
-width:100px;
-background-color: var(--primary-color);
+  height: 30px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: var(--primary-color);
 `;
 
 const LearnButton = styled.button`
   height: 30px;
   width: 100px;
-  margin-left:30px;
-  background-color: var(--secondary-color);
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: var(--background-color);
 `;
 
 const HeadingOne = styled.h1`

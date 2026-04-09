@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 :root {
-  --border-color: gray;
-  --primary-color: #f7d486;
-  --secondary-color: #ebf4f5;
+  --border-color: #e0e0e0;
+  --primary-color: #10B981;
+  --secondary-color: #1F2937;
+  --background-color:#F9FAFB;
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-md: 1rem;
